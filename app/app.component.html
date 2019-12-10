@@ -1,0 +1,10 @@
+<div style="text-align:center">
+	<h1>
+		my ng-starrating 
+	</h1>
+	<star-rating value="5" totalstars={{totalstar}} checkedcolor="red" uncheckedcolor="black" size="24px"
+		readonly="false" (rate)="onRate($event)"></star-rating>
+</div>
+
+<star-rating value={{totalstar}} checkedcolor="#000000" uncheckedcolor="#ffffff"
+totalstars= {{totalstar}} >
